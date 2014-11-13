@@ -10,7 +10,8 @@ Ever tried bind a future to a `ng-model`? At least me and someone else [on Stack
 
 Bind a `ngResource` to a `ngModel`. Works with other futures, that have a `$promise` and a `$resolved` property, too. Works best with an own `$formatter`/`$parser` directive.
 
-    <textarea is-resource-future ng-model="value1" ></textarea> 
+    <textarea is-future
+		ng-model="value1" ></textarea>
 
 ## API
 
@@ -20,9 +21,11 @@ One directive that ensures that the `$viewValue` of the model is updated when th
 
 ### `future-pending-value`
 
-Whith this directive you can supply a value for the time while your process is unresolved (otherwise you'll get an empty object in most cases which is barely desiderable)
+Whith this directive you can supply a value for the time while your promise is unresolved (otherwise you'll get an empty object in most cases which is barely desiderable)
 
-    <textarea future-pending-value="['downloading things']" is-resource-future ng-model="value1" ></textarea> 
+    <textarea future-pending-value="['downloading things']"
+		is-future
+		ng-model="value1" ></textarea> 
 
 ## Contributing
 
