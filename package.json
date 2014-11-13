@@ -33,5 +33,9 @@
     "mocha": "^2.0.1",
     "phantomjs": "^1.9.12",
     "uglify-js": "^2.4.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:P-Seebauer/ng-isFutureModel.git"
   }
 }
