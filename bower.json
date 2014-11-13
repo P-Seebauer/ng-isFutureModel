@@ -5,7 +5,7 @@
     "patrickseebauer@gmail.com"
   ],
   "description": "Provides a directive you can use if you have a ngResource and want to bind it to a ngModel",
-  "main": "dist/futureModel.min.js",
+  "main": "dist/isFutureModel.min.js",
   "keywords": [
     "angular",
     "ngResource",
